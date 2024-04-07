@@ -1,0 +1,15 @@
+[
+  { "language": "React", "rate": 3.5 },
+  { "language": "Javascript", "rate": 3.5 },
+  { "language": "Python", "rate": 3.5 },
+  { "language": "Flask", "rate": 3 },
+  { "language": "JQuery", "rate": 3 },
+  { "language": "NodeJS", "rate": 2.5 },
+  { "language": "ExpressJS", "rate": 2.5 },
+  { "language": "HTML", "rate": 4 },
+  { "language": "CSS", "rate": 4 },
+  { "language": "Tailwind", "rate": 4 },
+  { "language": "Power BI", "rate": 3 },
+  { "language": "Git", "rate": 3 },
+  { "language": "Tortoise SVN", "rate": 3 }
+]
