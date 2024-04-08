@@ -33,8 +33,8 @@ const Summary = () => {
             </span>
           </div>
           <a href="https://drive.google.com/file/d/1VJlbKS6qQ0tKx0ATtjeOi_RFsJ3sjFe0/view?usp=sharing">
-            <button title="Please, check my Resume!" className="flex flex-row gap-1 w-fit bg-violet-700 text-yellow-200 font-bold p-1.5 px-2.5 rounded-md align-middle">
-              View Resume{" "}
+            <button title="View Resume!" className="flex flex-row gap-1 w-fit bg-violet-700 text-yellow-200 font-bold p-1.5 px-2.5 rounded-md align-middle">
+              View Resume
               <span>
                 <img alt="View Resume" src={Resume} />
               </span>
