@@ -6,7 +6,7 @@ import hackerrank from "../images/hackerrank.png";
 
 const Contact = () => {
   return (
-    <div className="mt-2 px-5 py-3" id="Contact">
+    <div className="mt-2 px-5 py-3 animate-whole" id="Contact">
       <div className="text-2xl text-violet-700 font-bold">Contact</div>
       <div className="flex gap-4 w-full items-center flex justify-center mt-2">
         <a href="https://github.com/hemant110800/">
