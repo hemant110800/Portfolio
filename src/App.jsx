@@ -22,7 +22,7 @@ function App() {
 
   return (
     <div
-      className="overflow-y-auto h-[100vh]"
+      className="overflow-y-auto h-[100vh] animate-whole"
       onScroll={scrollHandler}
       ref={scrollControl}
     >
