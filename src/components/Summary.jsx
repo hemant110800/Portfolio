@@ -4,14 +4,14 @@ import Resume from "../images/resume.png";
 
 const Summary = () => {
   return (
-    <div className="px-5 bg-violet-100 rounded-br-[70%]" id="home">
+    <div className="px-5 bg-violet-100 rounded-br-[70%] animate-whole" id="home">
       <Header />
       <div className="flex flex-row items-center ">
         <div className="top-3 left-8 w-1/4">
           <img
             src={ProfileImg}
             alt="Profile"
-            className="w-[70%] rounded-[40%] relative left-[20px]"
+            className="w-[70%] rounded-[20%] relative left-[20px]"
           />
         </div>
         <div className="w-full flex flex-col gap-4">
