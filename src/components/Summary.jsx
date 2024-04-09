@@ -32,7 +32,7 @@ const Summary = () => {
               collaborating effectively within cross-functional teams.
             </span>
           </div>
-          <a href="https://drive.google.com/file/d/1VJlbKS6qQ0tKx0ATtjeOi_RFsJ3sjFe0/view?usp=sharing">
+          <a href="https://drive.google.com/file/d/1VJlbKS6qQ0tKx0ATtjeOi_RFsJ3sjFe0/view?usp=sharing" className="w-fit">
             <button title="View Resume" className="flex flex-row gap-1 w-fit bg-violet-700 text-yellow-200 font-bold p-1.5 px-2.5 rounded-md align-middle">
               View Resume
               <span>
