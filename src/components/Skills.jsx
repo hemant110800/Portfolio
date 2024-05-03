@@ -6,30 +6,33 @@ import halfstar from "../images/half-rating.png";
 
 const Skills = () => {
   const [selectedSkill, setSelectedSkill] = useState("");
+  const [hoverClass, setHover] = useState("");
 
   const hoverOnSkillHandler = (e, skill) => {
     // console.log("hover", e, skill);
     setSelectedSkill(skill);
+    setHover("animate-skill")
   };
   const hoverOutSkillHandler = () => {
     setSelectedSkill("");
+    setHover("");
   };
   // console.log(skillsData);
   return (
     <div className="mt-2 px-5 py-3 animate-whole" id="Skills">
       <div className="text-2xl text-violet-700 font-bold">Skills</div>
-      <ul className="flex flex-row flex-wrap gap-3 mt-4 px-5 justify-center">
+      <ul className="flex flex-row flex-wrap gap-3 mt-4 px-7 justify-center">
         {skillsData.map((skill, ind) => {
           return (
             <li key={ind}>
               <div
-                className="p-0.5 px-4 rounded-full border-2 border-violet-700 text-violet-700 font-bold cursor-pointer flex gap-3 items-center"
+                className={`p-0.5 px-4 rounded-full border-2 border-violet-700 text-violet-700 font-bold cursor-pointer flex flex-col items-center ${selectedSkill["language"] === skill["language"] && hoverClass}`}
                 onMouseOver={e => hoverOnSkillHandler(e, skill)}
                 onMouseOut={hoverOutSkillHandler}
               >
                 <span>{skill["language"]}</span>
                 {selectedSkill["language"] === skill["language"] && (
-                  <div className="flex">
+                  <div className="flex pb-1">
                     {Array.from(Array(5), (e, i) => {
                       if (i + 1 <= selectedSkill["rate"]) {
                         return (

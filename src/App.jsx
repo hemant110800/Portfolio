@@ -13,7 +13,7 @@ function App() {
   const [scrollPos, setScroll] = useState(0);
   const scrollControl = useRef(null);
   const scrollHandler = e => {
-    console.log(scrollPos)
+    // console.log(scrollPos)
     setScroll(e.target.scrollTop);
   };
 
@@ -33,7 +33,7 @@ function App() {
             className="fixed top-0 right-0 pr-3 w-[40px] z-10"
             alt="up"
             src={upArrow}
-          ></img>{scrollPos}
+          ></img>
         </button>
        )}
       <Summary />

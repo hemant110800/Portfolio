@@ -3,12 +3,15 @@ import { useState } from "react";
 
 const Projects = () => {
   const [selectedProject, setSelectedProject] = useState("");
+  const [hoverClass, setHover] = useState("");
 
   const hoverOnProjectHandler = (e, project) => {
     // console.log("hover", e, project);
+    setHover("animate-project");
     setSelectedProject(project);
   };
   const hoverOutProjectHandler = () => {
+    setHover("");
     setSelectedProject("");
   };
   return (
@@ -19,25 +22,28 @@ const Projects = () => {
           return (
             <li key={ind}>
               <a href={proj["proj_link"]}>
-                {/* <div className="flex flex-col gap-2 items-center"> */}
+                <div
+                  className={`w-[300px] items-center p-1 border-2 border-violet-700 rounded-md text-violet-700 font-bold cursor-pointer flex flex-col gap-0.5 ${selectedProject[
+                    "project_name"
+                  ] === proj["project_name"] && hoverClass}`}
+                  onMouseOver={e => hoverOnProjectHandler(e, proj)}
+                  onMouseOut={hoverOutProjectHandler}
+                >
+                  <img
+                    className="h-[162px] w-[200px] pt-2"
+                    src={proj["img"]}
+                    alt="food app"
+                  ></img>
+                  <span className="w-full text-center">
+                    {proj["project_name"]}
+                  </span>
                   <div
-                    className="w-[300px]  items-center p-1 border-2 border-violet-700 rounded-md text-violet-700 font-bold cursor-pointer flex flex-col gap-0.5"
-                    onMouseOver={e => hoverOnProjectHandler(e, proj)}
-                    onMouseOut={hoverOutProjectHandler}
+                    title={proj["proj_description"]}
+                    className="h-[210px] overflow-hidden bg-violet-50 text-black text-center p-4 font-medium vertical-ellipsis"
                   >
-                    <img
-                      className="h-[162px] w-[200px] pt-2"
-                      src={proj["img"]}
-                      alt="food app"
-                    ></img>
-                    <span className="w-full text-center">
-                      {proj["project_name"]}
-                    </span>
-                  {selectedProject["project_name"] === proj["project_name"] && (
-                    <div className="h-[50%] bg-violet-50 text-black text-center p-4 font-medium">{proj["proj_description"]}</div>
-                  )}
+                    {proj["proj_description"]}
                   </div>
-                {/* </div> */}
+                </div>
               </a>
             </li>
           );
