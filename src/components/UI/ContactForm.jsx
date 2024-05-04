@@ -123,7 +123,7 @@ const ContactForm = () => {
         </div>
         <div className="flex gap-3 items-center m-auto">
           <button
-            className="w-fit bg-violet-700 text-yellow-200 font-bold p-1.5 px-4 rounded-md disabled:bg-violet-500"
+            className="w-fit bg-violet-900 text-yellow-200 font-bold p-1.5 px-4 rounded-md disabled:bg-violet-500"
             disabled={
               formStates.from_name === "" ||
               formStates.from_email === "" ||

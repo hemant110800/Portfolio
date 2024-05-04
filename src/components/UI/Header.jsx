@@ -19,7 +19,7 @@ const Header = () => {
 
   return (
     <div className="h-[50px] flex flex-row justify-between items-center py-3 z-10">
-      <div className="text-4xl font-bold font-sons text-violet-700">
+      <div className="text-4xl font-bold font-sons text-violet-900">
         Hemant Bhati
       </div>
       <div className="flex flex-row float-right gap-8">

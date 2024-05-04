@@ -11,14 +11,14 @@ const Summary = () => {
           <img
             src={ProfileImg}
             alt="Profile"
-            className="w-[85%] relative left-[-20px] mirror-img"
+            className="w-[85%] relative mirror-img"
           />
         </div>
         <div className="w-full flex flex-col gap-4">
-          <span className="text-3xl font-bold">
+          <span className="text-3xl font-bold w-fit">
             Hello, Welcome to My Profile!
           </span>
-          <div className="flex flex-col gap-1 max-w-[88%]">
+          <div className="flex flex-col gap-1 max-w-[80%]">
             <span>
               Driven React - Python (Flask) and MERN Full Stack Developer with 2.75
               years of hands-on experience in crafting dynamic web applications.
@@ -32,8 +32,8 @@ const Summary = () => {
               collaborating effectively within cross-functional teams.
             </span>
           </div>
-          <a href="https://drive.google.com/file/d/1VJlbKS6qQ0tKx0ATtjeOi_RFsJ3sjFe0/view?usp=sharing" className="w-fit">
-            <button title="View Resume" className="flex flex-row gap-1 w-fit bg-violet-700 text-yellow-200 font-bold p-1.5 px-2.5 rounded-md align-middle items-center">
+          <a href="https://drive.google.com/file/d/1VJlbKS6qQ0tKx0ATtjeOi_RFsJ3sjFe0/view?usp=sharing" className="w-fit" target="_blank" rel="noreferrer">
+            <button title="View Resume" className="flex flex-row gap-1 w-fit bg-violet-900 text-yellow-200 font-bold p-1.5 px-2.5 rounded-md align-middle items-center">
               View Resume
               <span>
                 <img alt="View Resume" src={Resume} />

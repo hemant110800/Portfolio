@@ -20,7 +20,7 @@ const Skills = () => {
   // console.log(skillsData);
   return (
     <div className="mt-2 px-5 py-3 animate-whole" id="Skills">
-      <div className="text-2xl text-violet-700 font-bold">Skills</div>
+      <div className="text-2xl text-violet-900 font-bold">Skills</div>
       <ul className="flex flex-row flex-wrap gap-3 mt-4 px-7 justify-center">
         {skillsData.map((skill, ind) => {
           return (
