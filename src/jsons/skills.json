@@ -8,6 +8,7 @@
   { "language": "ExpressJS", "rate": 2.5 },
   { "language": "HTML", "rate": 4 },
   { "language": "CSS", "rate": 4 },
+  { "language": "SQL", "rate": 3 },
   { "language": "Tailwind", "rate": 4 },
   { "language": "Power BI", "rate": 3 },
   { "language": "Git", "rate": 3 },
