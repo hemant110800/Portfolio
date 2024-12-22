@@ -3,6 +3,7 @@
   { "language": "Javascript", "rate": 3.5 },
   { "language": "Python", "rate": 3.5 },
   { "language": "Flask", "rate": 3 },
+  { "language": "AWS", "rate": 2 },
   { "language": "JQuery", "rate": 3 },
   { "language": "NodeJS", "rate": 2.5 },
   { "language": "ExpressJS", "rate": 2.5 },

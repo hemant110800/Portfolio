@@ -78,8 +78,8 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="bg-violet-50 m-auto w-[50%] rounded-md p-5">
-      <div className="w-fit m-auto p-2 mb-2 text-violet-700 font-bold text-2xl flex gap-2">
+    <div className="bg-violet-50 m-auto lg:w-[50%] sm:w-[75%] rounded-md p-5">
+      <div className="w-fit m-auto p-2 mb-2 text-violet-700 font-bold lg:text-2xl text-lg flex gap-2">
         <img src={contact} alt="Contact" className="w-[18%]" />
         Get In Touch
       </div>
@@ -89,7 +89,7 @@ const ContactForm = () => {
         onSubmit={submitHandler}
       >
         <div className="flex gap-2 items-start">
-          <label className="w-1/6 font-bold ">Name</label>
+          <label className="lg:w-1/6 md:3/6 w-2/6 font-bold ">Name</label>
           <input
             type="text"
             value={formStates.from_name}
@@ -100,7 +100,7 @@ const ContactForm = () => {
           ></input>
         </div>
         <div className="flex gap-2 items-start">
-          <label className="w-1/6 font-bold">Email</label>
+          <label className="lg:w-1/6 md:3/6 w-2/6 font-bold">Email</label>
           <input
             type="email"
             name="from_email"
@@ -111,7 +111,7 @@ const ContactForm = () => {
           ></input>
         </div>
         <div className="flex gap-2 items-start">
-          <label className="w-1/6 font-bold">Message</label>
+          <label className="lg:w-1/6 md:3/6 w-2/6 font-bold">Message</label>
           <textarea
             name="message"
             rows={4}

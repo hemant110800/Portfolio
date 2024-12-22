@@ -19,9 +19,9 @@ const Skills = () => {
   };
   // console.log(skillsData);
   return (
-    <div className="mt-2 px-5 py-3 animate-whole" id="Skills">
-      <div className="text-2xl text-violet-900 font-bold">Skills</div>
-      <ul className="flex flex-row flex-wrap gap-3 mt-4 px-9 justify-center">
+    <div className="mt-2 lg:px-3.5 md:px-2.5 px-2.5 py-3 animate-whole" id="Skills">
+      <div className="text-violet-900 font-bold animate-whole lg:text-2xl md:text-xl text-lg">Skills</div>
+      <ul className="flex flex-row flex-wrap gap-3 mt-2 px-9 justify-center">
         {skillsData.map((skill, ind) => {
           return (
             <li key={ind}>
@@ -30,7 +30,7 @@ const Skills = () => {
                 onMouseOver={e => hoverOnSkillHandler(e, skill)}
                 onMouseOut={hoverOutSkillHandler}
               >
-                <span>{skill["language"]}</span>
+                <span className="lg:text-base text-sm">{skill["language"]}</span>
                 {selectedSkill["language"] === skill["language"] && (
                   <div className="flex pb-1">
                     {Array.from(Array(5), (e, i) => {

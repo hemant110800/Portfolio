@@ -15,9 +15,9 @@ const Projects = () => {
     setSelectedProject("");
   };
   return (
-    <div className="mt-2 px-5 py-3 animate-whole" id="Projects">
-      <div className="text-2xl text-violet-900 font-bold">Projects</div>
-      <ul className="flex flex-row flex-wrap gap-4 mt-4 px-5 justify-center">
+    <div className="mt-2 lg:px-3.5 md:px-2.5 px-2.5 py-3 animate-whole" id="Projects">
+      <div className=" text-violet-900 font-bold animate-whole lg:text-2xl md:text-xl text-lg">Projects</div>
+      <ul className="flex flex-row flex-wrap gap-4 mt-2 px-5 justify-center">
         {projectData.map((proj, ind) => {
           return (
             <li key={ind}>
