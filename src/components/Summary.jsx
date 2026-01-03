@@ -20,7 +20,7 @@ const Summary = () => {
           <span className="lg:text-3xl md:text-2xl text-[14px] font-bold w-fit ">
             Hello, Welcome to My Profile!
           </span>
-          <div className="flex flex-col gap-2.5">
+          <div className="flex flex-col gap-2.5 max-w-[790px]">
             <span className="text-justify animate-whole lg:text-base md:text-base font-bold text-sm">
             React & Django Full-Stack Developer | 4.5+ Years Experience
             </span>
@@ -28,7 +28,7 @@ const Summary = () => {
             Building secure, scalable web applications with modern UI, robust APIs, and production-ready deployments.
             </span>
             <span className="text-justify animate-whole lg:text-base md:text-base text-sm">
-            Passionate about creating high-quality solutions, improving user experience, and collaborating effectively within<br></br> cross-functional teams to deliver impactful products.
+            Passionate about creating high-quality solutions, improving user experience, and collaborating effectively within cross-functional teams to deliver impactful products.
             </span>
           </div>
           <a href="https://drive.google.com/file/d/1VJlbKS6qQ0tKx0ATtjeOi_RFsJ3sjFe0/view?usp=sharing" className="w-fit animate-whole" target="_blank" rel="noreferrer">
