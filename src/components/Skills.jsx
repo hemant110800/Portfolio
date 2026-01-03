@@ -21,7 +21,7 @@ const Skills = () => {
   return (
     <div className="mt-2 lg:px-3.5 md:px-2.5 px-2.5 py-3 animate-whole" id="Skills">
       <div className="text-violet-900 font-bold animate-whole lg:text-2xl md:text-xl text-lg">Skills</div>
-      <ul className="flex flex-row flex-wrap gap-3 mt-2 px-9 justify-center">
+      <ul className="flex flex-row flex-wrap gap-4 mt-2 px-9 justify-center">
         {skillsData.map((skill, ind) => {
           return (
             <li key={ind}>

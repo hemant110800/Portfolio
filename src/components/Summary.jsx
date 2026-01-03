@@ -12,7 +12,8 @@ const Summary = () => {
           <img
             src={ProfileImg}
             alt="Profile"
-            className="rounded-[50%] p-1 relative mirror-img"
+            // className="rounded-[50%] p-1 relative mirror-img"
+            className=" p-1 relative mirror-img"
           />
         </div>
         <div className="w-full flex flex-col gap-4">
@@ -20,17 +21,14 @@ const Summary = () => {
             Hello, Welcome to My Profile!
           </span>
           <div className="flex flex-col gap-2.5">
-            <span className="text-justify animate-whole lg:text-base md:text-base text-sm">
-              Driven React - Python (Flask) and MERN Full Stack Developer with 3.5
-              years of hands-on experience in crafting dynamic web applications.
+            <span className="text-justify animate-whole lg:text-base md:text-base font-bold text-sm">
+            React & Django Full-Stack Developer | 4.5+ Years Experience
             </span>
             <span className="text-justify animate-whole lg:text-base md:text-base text-sm">
-              Proficient in React, adept at building responsive and engaging
-              user interfaces.
+            Building secure, scalable web applications with modern UI, robust APIs, and production-ready deployments.
             </span>
             <span className="text-justify animate-whole lg:text-base md:text-base text-sm">
-              Passionate about contributing to innovative projects and
-              collaborating effectively within cross-functional teams.
+            Passionate about creating high-quality solutions, improving user experience, and collaborating effectively within<br></br> cross-functional teams to deliver impactful products.
             </span>
           </div>
           <a href="https://drive.google.com/file/d/1VJlbKS6qQ0tKx0ATtjeOi_RFsJ3sjFe0/view?usp=sharing" className="w-fit animate-whole" target="_blank" rel="noreferrer">

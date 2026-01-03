@@ -94,6 +94,7 @@ const ContactForm = () => {
             type="text"
             value={formStates.from_name}
             name="from_name"
+            placeholder="Enter your name"
             className="p-1 border-2 rounded-md border-violet-200 w-full"
             required
             onChange={stateChangeHandler}
@@ -104,6 +105,7 @@ const ContactForm = () => {
           <input
             type="email"
             name="from_email"
+            placeholder="Enter your email"
             value={formStates.from_email}
             className="p-1 border-2 rounded-md border-violet-200 w-full"
             required
@@ -116,6 +118,7 @@ const ContactForm = () => {
             name="message"
             rows={4}
             value={formStates.message}
+            placeholder="Please provide your valuable feedback!"
             className="p-1 border-2 rounded-md border-violet-200 w-full"
             required
             onChange={stateChangeHandler}

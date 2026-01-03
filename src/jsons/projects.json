@@ -1,62 +1,86 @@
 [
   {
+    "project_name": "TravelMate",
+    "proj_description": "TravelMate is a full-stack web application that combines travel planning, product shopping, secure payments, and AI-powered assistance into a single platform. The application enables users to explore travel destinations, manage personalized travel selections, purchase travel-related products, and interact with a Generative AI–based assistant for general guidance.",
+    "proj_link": "https://github.com/hemant110800/TravelMate",
+    "img":"projects/travelmate.jpg"
+  },
+  {
+    "project_name": "AuthNotes",
+    "proj_description": "AuthNotes is a full-stack web application that allows users to securely register, log in, and manage personal notes. Authenticated users can create, edit, and delete their notes, with data protected using JWT-based authentication.",
+    "proj_link": "https://github.com/hemant110800/AuthNotes",
+    "img":"projects/notes.jpg"
+  },
+  {
+    "project_name": "IMDB-CLONE-DRF",
+    "proj_description": "By using Django Rest framework created endpoints for creating movies, stream platforms, adding reviews for movies , explore all django rest framework concepts. Implemented Throttling, Pagination, Searching, Sorting etc. Explore types of views, serializers. Added Authentication feature using permission classes and tried JWT Authentication.",
+    "proj_link": "https://github.com/hemant110800/IMDB-Clone-DRF",
+    "img":"projects/imdb_logo.jpg"
+  },
+  {
+    "project_name": "React-Django-To-Do-APP",
+    "proj_description": "Created a Full Stack APP (React, Django) To Do APP, where users can add any task, update any task, mark task as completed, or remove any added task from list.",
+    "proj_link": "https://github.com/hemant110800/React-Django-To-Do-APP",
+    "img":"projects/to_do.jpg"
+  },
+  {
     "project_name": "Food Order App",
     "proj_description": "React application that lists food items along with their prices and descriptions. Users have the option to add items to their cart accordinly updates cart count. When users click on the cart button, they see a popup displaying the details of their cart.",
     "proj_link": "https://github.com/hemant110800/Food-Order-App",
-    "img":"https://www.goteso.com/products/assets/images/food-delivery-software.png"
+    "img":"projects/food_order.jpg"
   },
   {
     "project_name": "Event Management App",
     "proj_description": "MERN Application with routes including Home, Events, Newsletter, and Authentication. Implemented user authentication through the backend, allowing authenticated users to add, update, or remove events.",
     "proj_link": "https://github.com/hemant110800/Event-Management-App",
-    "img":"https://mobikul.com/wp-content/uploads/2024/01/event-management-app-development.png" 
+    "img":"projects/event_management.jpg" 
 },
   {
     "project_name": "Shopping App",
     "proj_description": "A MERN-based Shopping App with item listings including price and descriptions with Add to Cart functionality implemented for each items, updating counts accordingly. Enabled backend updates and retrieval of selected items as needed.",
     "proj_link": "https://github.com/hemant110800/Redux-based-Shopping-App",
-    "img":"https://www.meijer.com/content/dam/meijer/campaign/more-ways-to-meijer/2019/digital/assets/shop-&-scan/20190219__1x1__shop-&-scan-icon1.jpg"
+    "img":"projects/shopping.jpg"
   },
   {
     "project_name": "Image Picker App",
-    "proj_description": "A MERN-based app to display tourist places, utilizing HTTP-based API calls to fetch and showcase images. Users can select and remove places from the set of images, updating the backend accordingly.",
+    "proj_description": "A MERN-based app to display tourist places, utilizing HTTP-based API calls to fetch and showcase projects. Users can select and remove places from the set of projects, updating the backend accordingly.",
     "proj_link": "https://github.com/hemant110800/Image-Picker-Full-Stack-MERN-App",
-    "img":"https://www.adobe.com/express/feature/image/media_1bd435a5cee678a86cb7f2dec8b3511c3b0cb2872.png?width=750&format=png&optimize=medium"
+    "img":"projects/image_picker.jpg"
   },
   {
     "project_name": "Login Handler App",
     "proj_description": "Created a Login Page in React using AuthContext (for storing user details), expecting user to enter valid Email and Password , with basic validations to Email and Password field, after successful credentials entering user to Home Screen , with login status track in LocalStorage.",
     "proj_link": "https://github.com/hemant110800/Login-Handler-App",
-    "img":"https://static-00.iconduck.com/assets.00/user-login-icon-487x512-xx4t1c61.png"
+    "img":"projects/login_handler.jpg"
   },
   {
     "project_name": "Investment Calculator App",
     "proj_description": "Developed an input form in React for users to input current savings, yearly savings, expected interest rate, and investment duration. Calculated the investment for the specified duration and displayed it in a tabular format.",
     "proj_link": "https://github.com/hemant110800/Investment-Calculator-App",
-    "img":"https://cdn3d.iconscout.com/3d/premium/thumb/investment-agreement-5421976-4528636.png?f=webp"
+    "img":"projects/investment_calculator.jpg"
   },
   {
     "project_name": "Expense Filter App",
     "proj_description": "Created a Expense Tracker in React, offering a detailed view of user expenses by year. Users can add items and their expenses using an input form, with filtering based on the selected year from a dropdown menu.",
     "proj_link": "https://github.com/hemant110800/Expense-Filter-App",
-    "img":"https://play-lh.googleusercontent.com/UW_HaKlzSFBXwCKW4T6DdgNzLcaU_2wvxivzupfX2-BDZqJwHDtv90Cdk57gzKdPnBo2"
+    "img":"projects/expense_filter.jpg"
   },
   {
     "project_name": "User Validation",
     "proj_description": "Developed a page with basic UI validation, displaying validation messages in a popup modal based on user entries. Utilized React Portal and the useRef() hook for external code placement and field control, respectively.",
     "proj_link": "https://github.com/hemant110800/Basic-User-Validation",
-    "img":"https://cdn2.iconfinder.com/data/icons/flat-style-svg-icons-part-2/512/accept_user_man-512.png"
+    "img":"projects/user_validation.jpg"
   },
   {
     "project_name": "Student Report Card",
     "proj_description": "Created a basic app where we are generating student report card, based on student marks from various subjects.",
     "proj_link": "https://github.com/hemant110800/Student-Report-card-project",
-    "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRufMTDXVb1vND4_EcW0cgUZn1Zmmpho2PEng&s"
+    "img":"projects/report_card.jpg"
   },
   {
     "project_name": "Intelligent Jarvis Using Python",
     "proj_description": "Created a Python  using use-case with libraries like speech_recognition and pyttsx3, enabling users to give audio instructions. The app interprets keywords like youtube, google, stackoverflow, play video, send email, etc., and performs corresponding tasks using Python libraries.",
     "proj_link": "https://github.com/hemant110800/Intelligent-Jarvis-Using-Python",
-    "img":"https://png.pngtree.com/png-clipart/20230823/original/pngtree-speech-recognition-color-icon-picture-image_8204306.png"
+    "img":"projects/intelligent_jarvis.jpg"
   }
 ]

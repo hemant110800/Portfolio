@@ -31,8 +31,8 @@ const Projects = () => {
                 >
                   <img
                     className="h-[162px] w-[200px] pt-2"
-                    src={proj["img"]}
-                    alt="food app"
+                    src={`/Portfolio/${proj["img"]}`}
+                    alt={proj["project_name"]}
                   ></img>
                   <span className="w-full text-center">
                     {proj["project_name"]}
